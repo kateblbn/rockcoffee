@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li, p {
+    margin: 0;
+    padding: 0;
+
+}
+html,
+body {
+    font-family: 'Righteous', sans-serif;
+    background-color: white;
+    color: black;
+    scroll-behavior: smooth;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    background-color: rgba(25, 23, 23, 0.9);
+    color: white;
+    height: 77px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+nav {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    color: white;
+    font-size: 30px;
+    font-weight: 120;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.item:hover {
+    color: rgba(120, 119, 119, 0.5)
+
+}
+
+.item:active {
+    transform: scale(0.9);
+}
+
+main {
+    width: 100%;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+#main-page {
+    /* height: 97vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 55px 0;
+}
+
+#about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 20px 0 30px 0;
+}
+
+p {
+    font-size: 30px;
+}
+
+.text-img img {
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#menu {
+    width: 100%;
+    margin: 105px 0 20px 0;
+}
+
+#menu h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: double;
+    margin: 55px 0 20px 0;
+    font-size: 70px;
+}
+
+.menu-more {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 90px 0;
+}
+.coffees, .deserts {
+    margin: 15px 0 10px 0;
+}
+#coffees,
+#deserts {
+    width: 40%;
+    background-color: rgba(51, 6, 6, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%; */
+    height: 740px;
+    margin-top: 80px;
+    padding: 25px;
+    font-size: 31px;
+    margin: 8px 0;
+}
+
+#menu-img {
+    width: 50%;
+    margin-top: -140px;
+
+    /* margin: -60px 0 10px 0; */
+}
+
+#menu-img img {
+    border-radius: 15px;
+}
+
+.descript {
+    height: 53%;
+    width: 73%;
+}
+
+.descript h3 {
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.descript p {
+    font-size: 25px;
+    padding: 5px;
+}  
+
+#coffees li,
+#deserts li {
+    font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        margin-bottom: 10px;
+      }
+ span {
+    flex: 1;
+    border-bottom: 4px dotted #333;
+  }
+.coffee__margin {
+    margin-right: 5px;
+}
+#morerock {
+    background-color: rgba(25, 23, 23, 0.9);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 25px
+}
+.instruments {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#left-side {
+    margin: 35px 15px;
+    height: 50%;
+}
+
+#left-side h4 {
+    font-size: 40px;
+    font-weight: 200;
+    color: white;
+    margin: 35px 0 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#left-side p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#right-side {
+    margin: 35px 45px;
+}
+
+#right-side h4 {
+    font-weight: 200;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin: 73px 0;
+}
+
+#form {
+    background-color: rgb(68, 39, 39);
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 80px 40px;
+}
+
+#form label {
+    display: inline-block;
+    width: 23%;
+    color: white;
+    font-size: 20px;
+    text-align: end;
+}
+
+input {
+    width: 60%;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 15px 0 0 200px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(68, 39, 39);
+    justify-content: flex-start;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    display: none;
+}
+
+#result .info {
+    height: 80%;
+    width: 80%;
+}
+
+.info .details {
+    margin-top: -50px;
+}
+
+.info .details p,
+span {
+    font-size: 20px;
+    font-weight: 150;
+}
+.details__descr {
+    text-align: center;
+}
+footer {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rights {
+    margin-top: 15px;
+    text-align: center;
+}
+.footer-mail {
+color: rgb(117, 35, 35);
+}
+.footer-me {
+    margin: 15px 0;
+}
+
+
+@media (min-wight: 1200px) {
+    .container {
+        width: 1100px;
+    }
+}
+
+ @media (max-width: 1199px) {
+    .container {
+        width: 80%;
+    }
+    .item {
+        font-size: 28px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .menu h2 {
+        /* margin: 0; */
+        font-size: 60px;
+    }
+    #menu-img {
+        width: 100%;
+         margin: -60px 0 10px 0;
+    }
+    #coffees, #deserts {
+        font-size: 28px;
+    }
+
+    .instruments {
+        width: 90%;
+    }
+        
+
+    #right-side h4 {
+        margin: 0 0 0 0;
+    }
+    #form {
+        width: 100%;
+    }
+    #result {
+        padding: 80px 40px;
+        width: 100%;
+    }
+    #result .info {
+        height: 100%;
+        width: 100%;
+    }
+    .info h4 {
+        margin: 0;
+    }
+    .info .details { 
+        margin-top: 0;
+    }
+
+ }
+
+@media (max-width: 900px) {
+    .item, p {
+        font-size: 24px;
+    }
+    h1  {
+        font-size: 47px;
+    }
+    #menu {
+        margin: 50px 0 20px 0;
+    }
+    #coffees, #deserts {
+        width: 400px;
+    }
+    #coffees {
+        margin: 8px 0 50px 0;
+
+    }
+    #menu-img {
+    width: 70%;
+    }
+    #form label {
+        display: block;
+        width: 50%;
+        text-align: start;
+    }
+    #form {
+        gap: 10px;
+        padding: 20px 10px;
+        margin: 0 auto;
+    }
+
+    input {
+        display: flex;
+    }
+} 
+@media (max-width: 750px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #menu h2 {
+        font-size: 50px;
+    }
+    #coffees, #deserts {
+        height: 630px;
+    }
+    #left-side p {
+        font-size: 18px;
+    }
+    #left-side h4 {
+        font-size: 30px;
+    }
+    #right-side {
+        margin: 0 45px 10px 45px;
+    }
+    #right-side h4 {
+        font-size: 25px;
+    }
+
+    #form {
+        gap: 10px;
+        padding: 10px 10px;
+    }
+    #form label {
+        font-size: 16px;
+    }
+    button {
+        width: 120px;
+    }
+
+    .right {
+        font-size: 14px;
+    }
+    #result {
+        padding: 20px 10px;
+} 
+}
+/* @media (max-width: 550px) {
+
+
+} 
+ */
+@media (max-width: 350px) {
+    .container {
+        width: 98%;
+    }
+    .item, p {
+        font-size: 17px;
+    }
+    #main-page {
+        margin: 15px 0 0 0;
+    }
+    .item, p {
+        font-size: 15px;
+    }
+    #coffees, #deserts {
+        height: 480px;
+        width: 80%;
+    }
+    .menu-more {
+        margin: 0;
+    }
+    #left-side h4 {
+        margin: 0 0 25px 0;
+    }
+    #right-side h4 {
+        font-size: 25px;
+    }
+    input {
+        width: 80%;
+    }
+    #form label {
+        font-size: 16px;
+    }
+    button {
+        width: 120px;
+    }
+    .rights {
+        font-size: 12px;
+    }
+    #result {
+        padding: 20px 10px;
+    } 
+     .details__descr {
+        font-size: 16px;
+    }
+}
+
+
+
+
